@@ -13,6 +13,11 @@ public class Node {
         this.next = next;
     }
 
+    public Node(String data) {
+        this.data = data;
+        this.next = null;
+    }
+
     public String getData() {
         return data;
     }
