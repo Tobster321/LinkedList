@@ -5,8 +5,6 @@
  * @author Magnus Silverdal
  */
 public class Queue {
-    // Need data structure....
-    int size = 0;
     LinkedList Queue;
     public Queue() {
         Queue = new LinkedList();
@@ -23,10 +21,10 @@ public class Queue {
     }
 
     public boolean isEmpty() {
-        return false;
+            return Queue.size == 0;
     }
 
     public int size() {
-        return -1;
+        return Queue.size;
     }
 }
